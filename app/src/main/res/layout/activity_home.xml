@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@drawable/bg1">
+
+
+    <View
+        android:id="@+id/rectangle_8"
+        android:layout_width="327dp"
+        android:layout_height="534dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="99dp"
+        android:background="@drawable/rectangle_8"
+        android:elevation="4dp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <TextView
+        android:id="@+id/choose_your"
+        android:layout_width="308dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="116dp"
+        android:elevation="4dp"
+        android:gravity="center_horizontal|top"
+        android:text="choose your action"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+    <View
+        android:id="@+id/rectangle_9"
+        android:layout_width="280dp"
+        android:layout_height="82dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="171dp"
+        android:background="@drawable/rectangle_9"
+        android:elevation="4dp" />
+
+    <ImageView
+        android:id="@+id/google_1"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="186dp"
+        android:elevation="4dp"
+
+        android:src="@drawable/ic_donate" />
+
+    <TextView
+        android:id="@+id/donate"
+        android:layout_width="93dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="109dp"
+        android:layout_marginTop="197dp"
+        android:gravity="center_horizontal|top"
+        android:elevation="4dp"
+        android:text="@string/donate"
+        android:textAppearance="@style/donate"
+        android:textColor="@color/white" />
+
+    <View
+        android:id="@+id/rent"
+        android:layout_width="280dp"
+        android:layout_height="82dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="63dp"
+        android:layout_marginTop="311dp"
+        android:background="@drawable/rent"
+        android:elevation="4dp" />
+
+    <TextView
+
+        android:layout_width="75dp"
+        android:layout_height="31dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="121dp"
+        android:elevation="4dp"
+        android:layout_marginTop="340dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/rent"
+        android:textAppearance="@style/rent" />
+
+    <ImageView
+
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="235dp"
+        android:layout_marginTop="322dp"
+        android:elevation="4dp"
+
+        android:src="@drawable/rent_img" />
+
+    <View
+
+        android:layout_width="280dp"
+        android:layout_height="82dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="476dp"
+        android:background="@drawable/rent"
+        android:elevation="4dp" />
+
+    <TextView
+        android:id="@+id/recycle"
+        android:layout_width="121dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:elevation="4dp"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="495dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/recycle"
+        android:textAppearance="@style/recycle" />
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="487dp"
+        android:elevation="4dp"
+
+        android:src="@drawable/recycle_img" />
+
+
+</RelativeLayout>

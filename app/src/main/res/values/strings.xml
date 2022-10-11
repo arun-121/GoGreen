@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GoGreen</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="new_user_">new user?</string>
+    <string name="sign_up">sign up</string>
+    <string name="or">or</string>
+    <string name="sign_in_wit">sign in with  google</string>
+    <string name="choose_your">choose your  action</string>
+    <string name="donate">donate</string>
+    <string name="rent">rent</string>
+    <string name="recycle">recycle</string>
+
+
+</resources>
